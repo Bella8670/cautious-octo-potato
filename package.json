@@ -1,0 +1,14 @@
+{
+  "name": "daily-learning-cloud-push",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "news": "node src/daily-news.mjs",
+    "growth": "node src/personal-growth.mjs",
+    "call-center": "node src/call-center-tip.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
